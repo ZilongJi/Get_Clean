@@ -1,14 +1,14 @@
 The codebook describes the variables, the data, and any transformations or work that performed to clean up the data
 
 variables:
-          dat:combine training data and testing data
-          lab:combine training labels and testing labels
-          sub:combine training subject and testing subject
+          1,dat:combine training data and testing data
+          2,lab:combine training labels and testing labels
+          3,sub:combine training subject and testing subject
           
-          dataset: combine all the data in to a dataframe, which has 563 columns of subjects, activity, features. And more than                    10000 rows in timecourse.
-          subdataset: This is a subset of dataset created in step 2, which extracts only the measurements on the mean and                           standard deviation for each measurement.
-          group_data: which is created in step 5.
-          data2: tidy data in step 5!
+          4,dataset: combine all the data in to a dataframe, which has 563 columns of subjects, activity, features. And more                        than 10000 rows in timecourse.
+          5,subdataset: This is a subset of dataset created in step 2, which extracts only the measurements on the mean and                           standard deviation for each measurement.
+          6,group_data: which is created in step 5.
+          7,data2: tidy data in step 5!
           
 transformations:
           1,merge the training data and testing data to create one data set
